@@ -9,7 +9,7 @@
 
 public class Account
 {
-    private double bal;  //The current balance
+    protected double bal;  //The current balance
     private int accnum;  //The account number
     
     
@@ -51,5 +51,8 @@ public class Account
 	    //override the toString method
 	    System.out.println( toString() );    
     }
+
+
+    
     
 }
